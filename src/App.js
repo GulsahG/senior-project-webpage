@@ -1,40 +1,49 @@
 import React from 'react';
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-} from '@chakra-ui/react';
-import { ColorModeSwitcher } from './ColorModeSwitcher';
-import { Logo } from './Logo';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import history from './history';
+import { ChakraProvider, Box, extendTheme } from '@chakra-ui/react';
+import '@fontsource/oswald';
+import '@fontsource/quattrocento';
+import NavBar from './components/NavBar';
+import IndexPage from './components/IndexPage';
+import TodoPage from './components/TodoPage';
+import SpecReport from './components/SpecReport';
+import DesignReport from './components/DesignReport';
+import AnalysisReport from './components/AnalysisReport';
+
+const theme = extendTheme({
+  colors: {
+    app: {
+      white: '#f1f1f1',
+      pink: '#ef3666',
+      lightPink: '#fec0c6',
+      blue: '#6b62fe',
+      grey: '#463c56',
+      lightgrey: '#9c95a1',
+      black: '#2d2c3f',
+    },
+  },
+  fonts: {
+    heading: 'Oswald',
+    body: 'Quattrocento',
+  }
+});
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
-      <Box textAlign="center" fontSize="xl">
-        <Grid minH="100vh" p={3}>
-          <ColorModeSwitcher justifySelf="flex-end" />
-          <VStack spacing={8}>
-            <Logo h="40vmin" pointerEvents="none" />
-            <Text>
-              Edit <Code fontSize="xl">src/App.js</Code> and save to reload.
-            </Text>
-            <Link
-              color="teal.500"
-              href="https://chakra-ui.com"
-              fontSize="2xl"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn Chakra
-            </Link>
-          </VStack>
-        </Grid>
-      </Box>
+      <Router history={history}>
+        <Box bg="app.black" w="100vw" h="100vh" style={{ overflow: "hidden" }}>
+          <NavBar />
+          <Switch>
+            <Route path="/" exact component={IndexPage} />
+            <Route path="/todos" exact component={TodoPage} />
+            <Route path="/specreport" exact component={SpecReport} />
+            <Route path="/designreport" exact component={DesignReport} />
+            <Route path="/analysisreport" exact component={AnalysisReport} />
+          </Switch>
+        </Box>
+      </Router>
     </ChakraProvider>
   );
 }
