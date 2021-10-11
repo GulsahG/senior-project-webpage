@@ -17,7 +17,7 @@ const theme = extendTheme({
       white: '#f1f1f1',
       pink: '#ef3666',
       lightPink: '#fec0c6',
-      blue: '#6b62fe',
+      blue: '#4776E6',
       grey: '#463c56',
       lightgrey: '#9c95a1',
       black: '#2d2c3f',
@@ -33,7 +33,7 @@ function App() {
   return (
     <ChakraProvider theme={theme}>
       <Router history={history}>
-        <Box bg="app.black" w="100vw" h="100vh" style={{ overflow: "hidden" }}>
+        <Box bg="app.black" w="100vw" h="100vh" style={{ overflowX: "hidden" }}>
           <NavBar />
           <Switch>
             <Route path="/" exact component={IndexPage} />

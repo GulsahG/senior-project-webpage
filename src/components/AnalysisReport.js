@@ -222,8 +222,7 @@ const AnalysisReport = () => {
         mt="2.5vh"
         color="app.lightgrey"
         style={{
-          textShadow:
-            '1px 0px 1px #ccc, 0px 1px 1px #eee, 2px 1px 1px #ccc, 1px 2px 1px #eee',
+          textShadow: "rgba(255,255,255,0.5) 0px 2px 2px"
         }}
       >
         Coming soon...{' '}

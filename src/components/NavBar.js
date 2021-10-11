@@ -9,21 +9,21 @@ const NavBar = () => {
   return (
     <Flex
       w="100%"
-      p="0 1.25%"
+      pl="1.25%"
       h="20vh"
       color="app.white"
-      bg="app.blue"
+      bg="linear-gradient(to left, #4776E6, #8E54E9)"
       alignItems="center"
       justifyContent="space-between"
     >
-      <Heading pt="1.25vh" as="h1" fontSize="5xl">
+      <Heading pt="1.25vh" as="h1" fontSize="2.75rem">
         Course Workload Organizer
       </Heading>
       <Breadcrumb
         spacing="8px"
-        separator={<ChevronRightIcon color="app.grey" w={6} h={6} />}
+        separator={<ChevronRightIcon color="app.pink" w={6} h={6} />}
         w="auto"
-        p="2.5vh 0"
+        p="1.25vh 1.25vw"
         alignSelf="flex-end"
         fontSize="xl"
       >
@@ -32,13 +32,20 @@ const NavBar = () => {
             as={Link}
             to="/"
             _focus={{ boxShadow: 'none' }}
-            style={{ transition: " all 0.25s ease-in-out", borderRadius: "4px", padding: "5px" }}
+            style={{
+              transition: ' all 0.25s ease-in-out',
+              borderRadius: '4px',
+              padding: '5px',
+              backdropFilter: 'saturate(180%) blur(16px)',
+              boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+            }}
             _hover={{
               textDecoration: 'none',
-              boxShadow: "1px 1px #ef3666, 2px 2px #ef3666, 3px 3px #ef3666",
-              color: 'white',
-              transform: "translateX(-3px)"
+              boxShadow: '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+              transform: 'translateX(-3px)',
             }}
+            color="app.black"
+            fontWeight="bold"
           >
             Home
           </BreadcrumbLink>
@@ -48,13 +55,20 @@ const NavBar = () => {
             as={Link}
             to="/todos"
             _focus={{ boxShadow: 'none' }}
-            style={{ transition: " all 0.25s ease-in-out", borderRadius: "4px", padding: "5px" }}
+            style={{
+              transition: ' all 0.25s ease-in-out',
+              borderRadius: '4px',
+              padding: '5px',
+              backdropFilter: 'saturate(180%) blur(16px)',
+              boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+            }}
             _hover={{
               textDecoration: 'none',
-              boxShadow: "1px 1px #ef3666, 2px 2px #ef3666, 3px 3px #ef3666",
-              color: 'white',
-              transform: "translateX(-3px)"
+              boxShadow: '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+              transform: 'translateX(-3px)',
             }}
+            color="app.black"
+            fontWeight="bold"
           >
             TODOs
           </BreadcrumbLink>
@@ -64,13 +78,20 @@ const NavBar = () => {
             as={Link}
             to="/specreport"
             _focus={{ boxShadow: 'none' }}
-            style={{ transition: " all 0.25s ease-in-out", borderRadius: "4px", padding: "5px" }}
+            style={{
+              transition: ' all 0.25s ease-in-out',
+              borderRadius: '4px',
+              padding: '5px',
+              backdropFilter: 'saturate(180%) blur(16px)',
+              boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+            }}
             _hover={{
               textDecoration: 'none',
-              boxShadow: "1px 1px #ef3666, 2px 2px #ef3666, 3px 3px #ef3666",
-              color: 'white',
-              transform: "translateX(-3px)"
+              boxShadow: '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+              transform: 'translateX(-3px)',
             }}
+            color="app.black"
+            fontWeight="bold"
           >
             Project Specifications Report
           </BreadcrumbLink>
@@ -80,13 +101,20 @@ const NavBar = () => {
             as={Link}
             to="/analysisreport"
             _focus={{ boxShadow: 'none' }}
-            style={{ transition: " all 0.25s ease-in-out", borderRadius: "4px", padding: "5px" }}
+            style={{
+              transition: ' all 0.25s ease-in-out',
+              borderRadius: '4px',
+              padding: '5px',
+              backdropFilter: 'saturate(180%) blur(16px)',
+              boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+            }}
             _hover={{
               textDecoration: 'none',
-              boxShadow: "1px 1px #ef3666, 2px 2px #ef3666, 3px 3px #ef3666",
-              color: 'white',
-              transform: "translateX(-3px)"
+              boxShadow: '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+              transform: 'translateX(-3px)',
             }}
+            color="app.black"
+            fontWeight="bold"
           >
             Analysis Report
           </BreadcrumbLink>
@@ -96,13 +124,20 @@ const NavBar = () => {
             as={Link}
             to="/designreport"
             _focus={{ boxShadow: 'none' }}
-            style={{ transition: " all 0.25s ease-in-out", borderRadius: "4px", padding: "5px" }}
+            style={{
+              transition: ' all 0.25s ease-in-out',
+              borderRadius: '4px',
+              padding: '5px',
+              backdropFilter: 'saturate(180%) blur(16px)',
+              boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+            }}
             _hover={{
               textDecoration: 'none',
-              boxShadow: "1px 1px #ef3666, 2px 2px #ef3666, 3px 3px #ef3666",
-              color: 'white',
-              transform: "translateX(-3px)"
+              boxShadow: '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+              transform: 'translateX(-3px)',
             }}
+            color="app.black"
+            fontWeight="bold"
           >
             High Level Design Report
           </BreadcrumbLink>
