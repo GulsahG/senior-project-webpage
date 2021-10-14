@@ -27,13 +27,13 @@ const DesignReport = () => {
     <Flex
       w="100%"
       h="auto"
-      mt="12.5vh"
+      mt={["20vh", "17.5vh", "15vh", "12.5vh"]}
       alignItems="center"
       justifyContent="center"
       flexDirection="column"
     >
       <Box
-        w="40%"
+        w={["70%", "60%", "50%", "40%"]}
         style={{
           backdropFilter: 'saturate(180%) blur(16px)',
           boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
@@ -218,7 +218,7 @@ const DesignReport = () => {
         </motion.svg>
       </Box>
       <Text
-        fontSize="4xl"
+        fontSize={["3xl", "3xl", "4xl", "4xl"]}
         mt="2.5vh"
         color="app.lightgrey"
         style={{
