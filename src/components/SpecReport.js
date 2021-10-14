@@ -27,7 +27,7 @@ const SpecReport = () => {
     <Flex
       w="100%"
       h="auto"
-      mt={["20vh", "17.5vh", "15vh", "12.5vh"]}
+      mt={["17.5vh", "12.5vh", "10vh", "7.5vh"]}
       alignItems="center"
       justifyContent="center"
       flexDirection="column"
