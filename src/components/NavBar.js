@@ -166,6 +166,7 @@ const NavBar = () => {
         aria-label="Open Menu"
         size="lg"
         mr={2}
+        bg="app.lightgrey"
         icon={
           <HamburgerIcon
             color="app.pink"
@@ -201,6 +202,7 @@ const NavBar = () => {
             mr={2}
             aria-label="Close Menu"
             size="lg"
+            bg="app.lightgrey"
             icon={
               <CloseIcon
                 color="app.grey"
@@ -210,8 +212,8 @@ const NavBar = () => {
                 style={{
                   borderRadius: '4px',
                   backdropFilter: 'saturate(180%) blur(16px)',
-                  boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
                   background: 'none !important',
+                  boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
                 }}
               />
             }

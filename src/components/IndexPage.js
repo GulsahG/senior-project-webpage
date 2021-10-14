@@ -25,7 +25,8 @@ const IndexPage = () => {
         textAlign={['start', 'start', 'start', 'justify']}
         w={['75%', '75%', '75%', '60%']}
         fontSize={['md', 'lg', 'lg', 'lg']}
-        m={["5vh 0", "7.5vh 0", "7.5vh 0", "5vh 0"]}
+        m={['5vh 0', '7.5vh 0', '7.5vh 0', '5vh 0']}
+        color="app.white"
       >
         We wish to create this project for students at our university so that
         they can better manage their time. We also want to reduce the amount of
@@ -72,7 +73,9 @@ const IndexPage = () => {
               boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
             }}
           ></Image>
-          <Text fontSize={['3xl', '2xl', '2xl', '3xl']}>Deniz Dumanlı</Text>
+          <Text fontSize={['3xl', '2xl', '2xl', '3xl']} color="app.white">
+            Deniz Dumanlı
+          </Text>
         </Flex>
         <Flex
           m={['5vh 0', '0', '0', '0']}
@@ -94,7 +97,9 @@ const IndexPage = () => {
               boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
             }}
           ></Image>
-          <Text fontSize={['3xl', '2xl', '2xl', '3xl']}>Gülşah Genç</Text>
+          <Text fontSize={['3xl', '2xl', '2xl', '3xl']} color="app.white">
+            Gülşah Genç
+          </Text>
         </Flex>
         <Flex
           m={['5vh 0', '0', '0', '0']}
@@ -116,7 +121,9 @@ const IndexPage = () => {
               boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
             }}
           ></Image>
-          <Text fontSize={['3xl', '2xl', '2xl', '3xl']}>Tunç Gürsoy</Text>
+          <Text fontSize={['3xl', '2xl', '2xl', '3xl']} color="app.white">
+            Tunç Gürsoy
+          </Text>
         </Flex>
       </Flex>
     </Flex>
