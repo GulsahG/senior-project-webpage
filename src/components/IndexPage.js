@@ -28,7 +28,7 @@ const IndexPage = () => {
         m={['5vh 0', '7.5vh 0', '7.5vh 0', '5vh 0']}
         color="app.white"
       >
-        We wish to create this project for students at our university so that
+        We wish to create this project for the benefits of students at our university so that
         they can better manage their time. We also want to reduce the amount of
         time teachers spend arranging quizzes, examinations, and assigning
         homework.
