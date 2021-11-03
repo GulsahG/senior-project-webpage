@@ -10,21 +10,44 @@ import { Image } from '@chakra-ui/image';
 
 const SpecReport = () => {
   return (
-    <Flex w={["60%", "55%", "50%", "30%"]} m={["12.5vh auto", "10vh auto", "7.5vh auto", "7.5vh auto"]}>
-    <Carousel swipeable={false} showThumbs={false}>
-      <div>
-        <Image boxSize={['90vw', '80vw', '70vw', '45vw']} objectFit="cover" src={img1} alt="Report Page 1" />
-      </div>
-      <div>
-        <Image boxSize={['90vw', '80vw', '70vw', '45vw']} objectFit="cover" src={img2} alt="Report Page 2" />
-      </div>
-      <div>
-        <Image boxSize={['90vw', '80vw', '70vw', '45vw']} objectFit="cover" src={img3} alt="Report Page 3" />
-      </div>
-      <div>
-        <Image boxSize={['90vw', '80vw', '70vw', '45vw']} objectFit="cover" src={img4} alt="Report Page 4" />
-      </div>
-    </Carousel>
+    <Flex
+      w={['60%', '55%', '50%', '30%']}
+      m={['12.5vh auto', '10vh auto', '7.5vh auto', '7.5vh auto']}
+    >
+      <Carousel swipeable={false} showThumbs={false}>
+        <div>
+          <Image
+            boxSize={['90vw', '80vw', '70vw', '45vw']}
+            objectFit="cover"
+            src={img1}
+            alt="Report Page 1"
+          />
+        </div>
+        <div>
+          <Image
+            boxSize={['90vw', '80vw', '70vw', '45vw']}
+            objectFit="cover"
+            src={img2}
+            alt="Report Page 2"
+          />
+        </div>
+        <div>
+          <Image
+            boxSize={['90vw', '80vw', '70vw', '45vw']}
+            objectFit="cover"
+            src={img3}
+            alt="Report Page 3"
+          />
+        </div>
+        <div>
+          <Image
+            boxSize={['90vw', '80vw', '70vw', '45vw']}
+            objectFit="cover"
+            src={img4}
+            alt="Report Page 4"
+          />
+        </div>
+      </Carousel>
     </Flex>
   );
 };

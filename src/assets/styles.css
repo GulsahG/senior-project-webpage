@@ -5,3 +5,37 @@
 .control-arrow:hover {
   background-color: rgba(71, 118, 230, 0.25) !important;
 }
+
+td {
+  padding: 0.25rem 0.5rem;
+}
+
+th {
+  width: 20%;
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+}
+
+table {
+  backdrop-filter: saturate(180%) blur(16px);
+  box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+  border-radius: 16px;
+  border: 1px solid rgba(209, 213, 219, 0.3);
+}
+
+td, th {
+  border: 2px solid #4776E6;
+}
+
+tr>td:first-of-type {
+  color: black;
+}
+
+.tdBefore {
+  color: #2d2c3f !important;
+  text-decoration: solid underline #4776E6 2px;;
+}
+
+.responsiveTable tbody tr {
+  border-color: #4776E6 !important;
+}
