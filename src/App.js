@@ -1,4 +1,5 @@
 import React from 'react';
+import './assets/styles.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import history from './history';
 import { ChakraProvider, Box, extendTheme } from '@chakra-ui/react';

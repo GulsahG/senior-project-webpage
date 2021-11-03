@@ -1,7 +1,7 @@
 import { Flex, Heading, Text, Image } from '@chakra-ui/react';
-import gulsah from '../data/gulsah.jpg';
-import tunc from '../data/tunc.jpg';
-import deniz from '../data/deniz.jpg';
+import gulsah from '../assets/gulsah.jpg';
+import tunc from '../assets/tunc.jpg';
+import deniz from '../assets/deniz.jpg';
 import React from 'react';
 
 const IndexPage = () => {
