@@ -29,7 +29,7 @@ const TodoPage = () => {
             <Td>Project Draft</Td>
             <Td>Medium</Td>
             <Td>8 October 2021</Td>
-            <Td style={{ color: '#d91145', textDecoration: 'line-through' }}>
+            <Td style={{ color: '#d91145' }}>
               Completed
             </Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
@@ -45,7 +45,7 @@ const TodoPage = () => {
             <Td>IT Department Meeting</Td>
             <Td>Medium</Td>
             <Td>9 October 2021</Td>
-            <Td style={{ color: '#d91145', textDecoration: 'line-through' }}>
+            <Td style={{ color: '#d91145' }}>
               Completed
             </Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
@@ -62,7 +62,7 @@ const TodoPage = () => {
             <Td>Project Website</Td>
             <Td>High</Td>
             <Td>18 October 2021</Td>
-            <Td style={{ color: '#d91145', textDecoration: 'line-through' }}>
+            <Td style={{ color: '#d91145' }}>
               Completed
             </Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
@@ -98,7 +98,7 @@ const TodoPage = () => {
             <Td>Project Proposal</Td>
             <Td>High</Td>
             <Td>18 October 2021</Td>
-            <Td style={{ color: '#d91145', textDecoration: 'line-through' }}>
+            <Td style={{ color: '#d91145' }}>
               Completed
             </Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
@@ -114,7 +114,7 @@ const TodoPage = () => {
             <Td>Project Specifications Report</Td>
             <Td>High</Td>
             <Td>5 November 2021</Td>
-            <Td style={{ color: '#d91145', textDecoration: 'line-through' }}>
+            <Td style={{ color: '#d91145' }}>
               Completed
             </Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
@@ -129,16 +129,17 @@ const TodoPage = () => {
           >
             <Td>Analysis Report</Td>
             <Td>High</Td>
-            <Td>22 November 2021</Td>
-            <Td>Not Started</Td>
+            <Td>1 December 2021</Td>
+            <Td style={{ color: '#d91145' }}>
+              Completed
+            </Td>
             <Td
               style={{
                 textAlign: 'center',
-                padding: '0.25rem 0.5rem',
-                color: '#9c95a1',
+                padding: '0.25rem 0.5rem'
               }}
             >
-              To be given.
+              Written a detailed analysis report extended with diagrams as asked.
             </Td>
           </Tr>
           <Tr
