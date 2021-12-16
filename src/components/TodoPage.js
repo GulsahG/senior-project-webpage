@@ -151,15 +151,9 @@ const TodoPage = () => {
             <Td>Moodle Plugins Research</Td>
             <Td>Medium</Td>
             <Td>-</Td>
-            <Td>Not Started</Td>
-            <Td
-              style={{
-                textAlign: 'center',
-                padding: '0.25rem 0.5rem',
-                color: '#9c95a1',
-              }}
-            >
-              To be given.
+            <Td>In Progress</Td>
+            <Td>
+              Had a meeting with the head of IT department to discuss the possibility of using Moodle Web Services over Moodle plugins.
             </Td>
           </Tr>
           <Tr
@@ -191,7 +185,7 @@ const TodoPage = () => {
             <Td>Various Technologies Research</Td>
             <Td>Medium</Td>
             <Td>-</Td>
-            <Td>Not Started</Td>
+            <Td>In Progress</Td>
             <Td
               style={{
                 textAlign: 'center',
