@@ -78,7 +78,7 @@ const TodoPage = () => {
             <Td>Moodle Cloud Services Research</Td>
             <Td>Low</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -86,7 +86,7 @@ const TodoPage = () => {
                 color: '#9c95a1',
               }}
             >
-              To be given.
+              Decided to use Moodle Web Services API instead.
             </Td>
           </Tr>
           <Tr
@@ -153,7 +153,7 @@ const TodoPage = () => {
             <Td>-</Td>
             <Td>In Progress</Td>
             <Td>
-              Had a meeting with the head of IT department to discuss the possibility of using Moodle Web Services over Moodle plugins.
+              Had several meetings with the head of IT department to discuss the possibility of using Moodle Web Services over Moodle plugins.
             </Td>
           </Tr>
           <Tr
@@ -165,15 +165,9 @@ const TodoPage = () => {
             <Td>High Level Design Report</Td>
             <Td>High</Td>
             <Td>3 January 2022</Td>
-            <Td>Not Started</Td>
-            <Td
-              style={{
-                textAlign: 'center',
-                padding: '0.25rem 0.5rem',
-                color: '#9c95a1',
-              }}
-            >
-              To be given.
+            <Td style={{ color: '#d91145' }}>Completed</Td>
+            <Td>
+              Written a detailed design report with additional UML diagrams as asked.
             </Td>
           </Tr>
           <Tr
@@ -186,14 +180,8 @@ const TodoPage = () => {
             <Td>Medium</Td>
             <Td>-</Td>
             <Td>In Progress</Td>
-            <Td
-              style={{
-                textAlign: 'center',
-                padding: '0.25rem 0.5rem',
-                color: '#9c95a1',
-              }}
-            >
-              To be given.
+            <Td>
+              Researched different types tools and technologies for Front-end, Backend, and Database systems.
             </Td>
           </Tr>
           <Tr
@@ -204,16 +192,10 @@ const TodoPage = () => {
           >
             <Td>Presentations</Td>
             <Td>High</Td>
-            <Td>10 January 2021</Td>
-            <Td>Not Started</Td>
-            <Td
-              style={{
-                textAlign: 'center',
-                padding: '0.25rem 0.5rem',
-                color: '#9c95a1',
-              }}
-            >
-              To be given.
+            <Td>20 January 2021</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
+            <Td>
+              Created a presentation for the demo meeting of our project.
             </Td>
           </Tr>
         </Tbody>
