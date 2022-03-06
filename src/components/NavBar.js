@@ -24,7 +24,7 @@ const NavBar = () => {
         alignItems="center"
         justifyContent="space-between"
         flexWrap="wrap"
-        display={['none', 'none', 'none', 'flex']}
+        display={['none', 'none', 'none', 'none', 'flex']}
       >
         <Heading pt="5vh" as="h1" w="85%" fontSize="2.75rem">
           Course Workload Organizer
@@ -34,7 +34,7 @@ const NavBar = () => {
           separator={<ChevronRightIcon color="app.pink" w={6} h={6} />}
           w="100%"
           p={['1vh 1vw', '1vh 1vw', '1.25vh 1vw', '2.5vh 1.25vw']}
-          fontSize="xl"
+          fontSize="lg"
           display="flex"
           alignItems="center"
           justifyContent="end"
@@ -159,6 +159,30 @@ const NavBar = () => {
               High Level Design Report
             </BreadcrumbLink>
           </BreadcrumbItem>
+          <BreadcrumbItem>
+            <BreadcrumbLink
+              as={Link}
+              to="/lowdesignreport"
+              _focus={{ boxShadow: 'none' }}
+              style={{
+                transition: ' all 0.25s ease-in-out',
+                borderRadius: '4px',
+                padding: '5px',
+                backdropFilter: 'saturate(180%) blur(16px)',
+                boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+              }}
+              _hover={{
+                textDecoration: 'none',
+                boxShadow:
+                  '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                transform: 'translateX(-3px)',
+              }}
+              color="app.black"
+              fontWeight="bold"
+            >
+              Low Level Design Report
+            </BreadcrumbLink>
+          </BreadcrumbItem>
         </Breadcrumb>
       </Flex>
       {/* Mobile */}
@@ -182,7 +206,7 @@ const NavBar = () => {
           />
         }
         onClick={() => changeDisplay('flex')}
-        display={['flex', 'flex', 'flex', 'none']}
+        display={['flex', 'flex', 'flex', 'flex', 'none']}
       />
       <Flex
         w="100vw"
@@ -360,6 +384,32 @@ const NavBar = () => {
                 onClick={() => changeDisplay('none')}
               >
                 High Level Design Report
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+              <BreadcrumbLink
+                as={Link}
+                to="/lowdesignreport"
+                _focus={{ boxShadow: 'none' }}
+                style={{
+                  transition: ' all 0.25s ease-in-out',
+                  borderRadius: '4px',
+                  padding: '5px',
+                  backdropFilter: 'saturate(180%) blur(16px)',
+                  boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+                  margin: '0 auto',
+                }}
+                _hover={{
+                  textDecoration: 'none',
+                  boxShadow:
+                    '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                  transform: 'translateX(-3px)',
+                }}
+                color="app.black"
+                fontWeight="bold"
+                onClick={() => changeDisplay('none')}
+              >
+                Low Level Design Report
               </BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>

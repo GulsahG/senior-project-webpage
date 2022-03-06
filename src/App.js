@@ -10,6 +10,7 @@ import IndexPage from './components/IndexPage';
 import TodoPage from './components/TodoPage';
 import SpecReport from './components/SpecReport';
 import DesignReport from './components/DesignReport';
+import LowDesignReport from './components/LowDesignReport';
 import AnalysisReport from './components/AnalysisReport';
 
 const theme = extendTheme({
@@ -27,20 +28,21 @@ const theme = extendTheme({
   fonts: {
     heading: 'Oswald',
     body: 'Quattrocento',
-  }
+  },
 });
 
 function App() {
   return (
     <ChakraProvider theme={theme}>
       <Router history={history}>
-        <Box bg="app.black" w="100vw" h="100vh" style={{ overflowX: "hidden" }}>
+        <Box bg="app.black" w="100vw" h="100vh" style={{ overflowX: 'hidden' }}>
           <NavBar />
           <Switch>
             <Route path="/" exact component={IndexPage} />
             <Route path="/todos" exact component={TodoPage} />
             <Route path="/specreport" exact component={SpecReport} />
             <Route path="/designreport" exact component={DesignReport} />
+            <Route path="/lowdesignreport" exact component={LowDesignReport} />
             <Route path="/analysisreport" exact component={AnalysisReport} />
           </Switch>
         </Box>
