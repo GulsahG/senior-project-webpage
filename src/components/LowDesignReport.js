@@ -21,7 +21,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img1}
             alt="Report Page 1"
             bg="white"
@@ -30,7 +30,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img2}
             alt="Report Page 2"
             bg="white"
@@ -39,7 +39,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img3}
             alt="Report Page 3"
             bg="white"
@@ -48,7 +48,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img4}
             alt="Report Page 4"
             bg="white"
@@ -57,7 +57,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img5}
             alt="Report Page 5"
             bg="white"
@@ -66,7 +66,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img6}
             alt="Report Page 6"
             bg="white"
@@ -75,7 +75,7 @@ const DesignReport = () => {
         <div>
           <Image
             boxSize={['92.5vw', '82.5vw', '75vw', '45vw']}
-            objectFit="scale-down"
+            objectFit="cover"
             src={img7}
             alt="Report Page 7"
             bg="white"
