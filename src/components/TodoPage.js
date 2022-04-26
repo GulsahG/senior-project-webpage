@@ -122,7 +122,7 @@ const TodoPage = () => {
             <Td>Welcome Page Implementation</Td>
             <Td>Medium</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
               The welcome page that the user sees after registering should be
               completed.
@@ -145,7 +145,7 @@ const TodoPage = () => {
             <Td>Backend API Development (Endpoints)</Td>
             <Td>Medium</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td style={{ textAlign: 'center', padding: '0.25rem 0.5rem' }}>
               Endpoints for getting teachers list of courses and the list of
               students in those courses need to be implemented.
@@ -168,7 +168,7 @@ const TodoPage = () => {
             <Td>Frontend Showcase Development</Td>
             <Td>High</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -196,7 +196,7 @@ const TodoPage = () => {
             <Td>Backend Database implementation for Assignments</Td>
             <Td>Medium</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -213,6 +213,90 @@ const TodoPage = () => {
               }}
             >
               Tunç G., Deniz D.
+            </Td>
+          </Tr>
+          <Tr
+            style={{
+              backgroundColor: 'rgba(241, 241, 241, 0.8)',
+              color: '#463c56',
+            }}
+          >
+            <Td>Integrating Backend and Frontend</Td>
+            <Td>High</Td>
+            <Td>6 May 2022</Td>
+            <Td>In Progress</Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              The Front-end system should be able to fetch all data from
+              different functions through the Backend system.
+            </Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              Everyone
+            </Td>
+          </Tr>
+          <Tr
+            style={{
+              backgroundColor: 'rgba(241, 241, 241, 0.8)',
+              color: '#463c56',
+            }}
+          >
+            <Td>Adding Colour Blind Mode</Td>
+            <Td>Low</Td>
+            <Td>-</Td>
+            <Td>In Progress</Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              Adding a colour-blind theme switcher for every user's
+              accessibility.
+            </Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              Gülşah G.
+            </Td>
+          </Tr>
+          <Tr
+            style={{
+              backgroundColor: 'rgba(241, 241, 241, 0.8)',
+              color: '#463c56',
+            }}
+          >
+            <Td>Implementing Workload ALgorithm</Td>
+            <Td>High</Td>
+            <Td>13 May 2022</Td>
+            <Td>In Progress</Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              The workload organizer algorithm should be implemented for
+              frontend suggestion purposes.
+            </Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              Gülşah G., Deniz Dumanlı
             </Td>
           </Tr>
         </Tbody>
