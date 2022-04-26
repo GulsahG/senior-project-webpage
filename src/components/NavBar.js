@@ -30,7 +30,7 @@ const NavBar = () => {
           Course Workload Organizer
         </Heading>
         <Breadcrumb
-          spacing="0.5vw"
+          spacing="0.4vw"
           separator={<ChevronRightIcon color="app.pink" w={6} h={6} />}
           w="100%"
           p={['1vh 1vw', '1vh 1vw', '1.25vh 1vw', '2.5vh 1.25vw']}
@@ -108,7 +108,7 @@ const NavBar = () => {
               color="app.black"
               fontWeight="bold"
             >
-              Project Specifications Report
+              Project Specifications Rep.
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>
@@ -132,7 +132,7 @@ const NavBar = () => {
               color="app.black"
               fontWeight="bold"
             >
-              Analysis Report
+              Analysis Rep.
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>
@@ -156,7 +156,7 @@ const NavBar = () => {
               color="app.black"
               fontWeight="bold"
             >
-              High Level Design Report
+              High Level Design Rep.
             </BreadcrumbLink>
           </BreadcrumbItem>
           <BreadcrumbItem>
@@ -180,7 +180,31 @@ const NavBar = () => {
               color="app.black"
               fontWeight="bold"
             >
-              Low Level Design Report
+              Low Level Design Rep.
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <BreadcrumbLink
+              as={Link}
+              to="/testplanreport"
+              _focus={{ boxShadow: 'none' }}
+              style={{
+                transition: ' all 0.25s ease-in-out',
+                borderRadius: '4px',
+                padding: '5px',
+                backdropFilter: 'saturate(180%) blur(16px)',
+                boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+              }}
+              _hover={{
+                textDecoration: 'none',
+                boxShadow:
+                  '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                transform: 'translateX(-3px)',
+              }}
+              color="app.black"
+              fontWeight="bold"
+            >
+              Test Plan Rep.
             </BreadcrumbLink>
           </BreadcrumbItem>
         </Breadcrumb>
@@ -254,7 +278,7 @@ const NavBar = () => {
           >
             <BreadcrumbItem
               w="85%"
-              m={['7.5vh 7.5% 3.75vh 7.5%', '7.5vh 7.5% 5vh 7.5%']}
+              m={['1.25vh 7.5% 2.5vh 7.5%', '2.5vh 7.5% 4vh 7.5%']}
               isCurrentPage
             >
               <BreadcrumbLink
@@ -282,7 +306,7 @@ const NavBar = () => {
                 Home
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
               <BreadcrumbLink
                 as={Link}
                 to="/todos"
@@ -308,7 +332,7 @@ const NavBar = () => {
                 TODOs
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
               <BreadcrumbLink
                 as={Link}
                 to="/specreport"
@@ -334,7 +358,7 @@ const NavBar = () => {
                 Project Specifications Report
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
               <BreadcrumbLink
                 as={Link}
                 to="/analysisreport"
@@ -360,7 +384,7 @@ const NavBar = () => {
                 Analysis Report
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
               <BreadcrumbLink
                 as={Link}
                 to="/designreport"
@@ -386,7 +410,7 @@ const NavBar = () => {
                 High Level Design Report
               </BreadcrumbLink>
             </BreadcrumbItem>
-            <BreadcrumbItem w="85%" m={['3.75vh 7.5%', '5vh 7.5%']}>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
               <BreadcrumbLink
                 as={Link}
                 to="/lowdesignreport"
@@ -410,6 +434,32 @@ const NavBar = () => {
                 onClick={() => changeDisplay('none')}
               >
                 Low Level Design Report
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
+              <BreadcrumbLink
+                as={Link}
+                to="/testplanreport"
+                _focus={{ boxShadow: 'none' }}
+                style={{
+                  transition: ' all 0.25s ease-in-out',
+                  borderRadius: '4px',
+                  padding: '5px',
+                  backdropFilter: 'saturate(180%) blur(16px)',
+                  boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+                  margin: '0 auto',
+                }}
+                _hover={{
+                  textDecoration: 'none',
+                  boxShadow:
+                    '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                  transform: 'translateX(-3px)',
+                }}
+                color="app.black"
+                fontWeight="bold"
+                onClick={() => changeDisplay('none')}
+              >
+                Test Plan Report
               </BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>

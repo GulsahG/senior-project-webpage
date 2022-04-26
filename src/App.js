@@ -12,6 +12,7 @@ import SpecReport from './components/SpecReport';
 import DesignReport from './components/DesignReport';
 import LowDesignReport from './components/LowDesignReport';
 import AnalysisReport from './components/AnalysisReport';
+import TestPlanReport from './components/TestPlanReport';
 
 const theme = extendTheme({
   colors: {
@@ -44,6 +45,7 @@ function App() {
             <Route path="/designreport" exact component={DesignReport} />
             <Route path="/lowdesignreport" exact component={LowDesignReport} />
             <Route path="/analysisreport" exact component={AnalysisReport} />
+            <Route path="/testplanreport" exact component={TestPlanReport} />
           </Switch>
         </Box>
       </Router>
