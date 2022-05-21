@@ -224,7 +224,7 @@ const TodoPage = () => {
             <Td>Integrating Backend and Frontend</Td>
             <Td>High</Td>
             <Td>6 May 2022</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -240,7 +240,7 @@ const TodoPage = () => {
                 padding: '0.25rem 0.5rem',
               }}
             >
-              Everyone
+              Tunç G., Deniz D., Gülşah G.
             </Td>
           </Tr>
           <Tr
@@ -252,7 +252,7 @@ const TodoPage = () => {
             <Td>Adding Colour Blind Mode</Td>
             <Td>Low</Td>
             <Td>-</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -279,7 +279,7 @@ const TodoPage = () => {
           >
             <Td>Implementing Workload ALgorithm</Td>
             <Td>High</Td>
-            <Td>13 May 2022</Td>
+            <Td>24 May 2022</Td>
             <Td>In Progress</Td>
             <Td
               style={{
