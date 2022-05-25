@@ -34,7 +34,7 @@ const NavBar = () => {
           separator={<ChevronRightIcon color="app.pink" w={6} h={6} />}
           w="100%"
           p={['1vh 1vw', '1vh 1vw', '1.25vh 1vw', '2.5vh 1.25vw']}
-          fontSize="lg"
+          fontSize="md"
           display="flex"
           alignItems="center"
           justifyContent="end"
@@ -205,6 +205,30 @@ const NavBar = () => {
               fontWeight="bold"
             >
               Test Plan Rep.
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          <BreadcrumbItem>
+            <BreadcrumbLink
+              as={Link}
+              to="/finalreport"
+              _focus={{ boxShadow: 'none' }}
+              style={{
+                transition: ' all 0.25s ease-in-out',
+                borderRadius: '4px',
+                padding: '5px',
+                backdropFilter: 'saturate(180%) blur(16px)',
+                boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+              }}
+              _hover={{
+                textDecoration: 'none',
+                boxShadow:
+                  '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                transform: 'translateX(-3px)',
+              }}
+              color="app.black"
+              fontWeight="bold"
+            >
+              Final Rep.
             </BreadcrumbLink>
           </BreadcrumbItem>
         </Breadcrumb>
@@ -460,6 +484,32 @@ const NavBar = () => {
                 onClick={() => changeDisplay('none')}
               >
                 Test Plan Report
+              </BreadcrumbLink>
+            </BreadcrumbItem>
+            <BreadcrumbItem w="85%" m={['2.5vh 7.5%', '4vh 7.5%']}>
+              <BreadcrumbLink
+                as={Link}
+                to="/finalreport"
+                _focus={{ boxShadow: 'none' }}
+                style={{
+                  transition: ' all 0.25s ease-in-out',
+                  borderRadius: '4px',
+                  padding: '5px',
+                  backdropFilter: 'saturate(180%) blur(16px)',
+                  boxShadow: 'inset 0 0 2000px rgba(255, 255, 255, .5)',
+                  margin: '0 auto',
+                }}
+                _hover={{
+                  textDecoration: 'none',
+                  boxShadow:
+                    '1px 1px #463c56, 2px 2px #463c56, 3px 3px #463c56, inset 0 0 2000px rgba(255, 255, 255, .5) !important',
+                  transform: 'translateX(-3px)',
+                }}
+                color="app.black"
+                fontWeight="bold"
+                onClick={() => changeDisplay('none')}
+              >
+                Final Rep.
               </BreadcrumbLink>
             </BreadcrumbItem>
           </Breadcrumb>
