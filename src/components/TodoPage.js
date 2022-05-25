@@ -280,7 +280,7 @@ const TodoPage = () => {
             <Td>Implementing Workload ALgorithm</Td>
             <Td>High</Td>
             <Td>24 May 2022</Td>
-            <Td>In Progress</Td>
+            <Td style={{ color: '#d91145' }}>Completed</Td>
             <Td
               style={{
                 textAlign: 'center',
@@ -289,6 +289,33 @@ const TodoPage = () => {
             >
               The workload organizer algorithm should be implemented for
               frontend suggestion purposes.
+            </Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              Gülşah G., Deniz Dumanlı
+            </Td>
+          </Tr>
+          <Tr
+            style={{
+              backgroundColor: 'rgba(241, 241, 241, 0.8)',
+              color: '#463c56',
+            }}
+          >
+            <Td>Fixing the last open bug</Td>
+            <Td>High</Td>
+            <Td>30 May 2022</Td>
+            <Td>In Progress</Td>
+            <Td
+              style={{
+                textAlign: 'center',
+                padding: '0.25rem 0.5rem',
+              }}
+            >
+              The open issue on activity intervals should be fixed.
             </Td>
             <Td
               style={{
